@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Qaclickacademy_test.listeners"/>
+  </listeners>
+  <test thread-count="5" name="validateTitle(failed)">
+    <classes>
+      <class name="Qaclickacademy_test.ValidateTitleTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="basepageNavigation"/>
+          <include name="Initialize"/>
+        </methods>
+      </class> <!-- Qaclickacademy_test.ValidateTitleTest -->
+    </classes>
+  </test> <!-- validateTitle(failed) -->
+  <test thread-count="5" name="loginTest(failed)">
+    <classes>
+      <class name="Qaclickacademy_test.HomePage">
+        <methods>
+          <include name="basepageNavigation"/>
+          <include name="intialize"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- Qaclickacademy_test.HomePage -->
+    </classes>
+  </test> <!-- loginTest(failed) -->
+  <test thread-count="5" name="validate(failed)">
+    <classes>
+      <class name="Qaclickacademy_test.ValidateTest">
+        <methods>
+          <include name="Initialize"/>
+          <include name="teardown"/>
+          <include name="basepageNavigation"/>
+        </methods>
+      </class> <!-- Qaclickacademy_test.ValidateTest -->
+    </classes>
+  </test> <!-- validate(failed) -->
+</suite> <!-- Failed suite [Suite] -->
