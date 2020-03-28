@@ -37,6 +37,7 @@ public class ValidateTest extends BaseClass {
 		Assert.assertEquals(LI.Text().getText(), "FEATURED COURSES");
 		Assert.assertTrue(LI.Getnavigation().isDisplayed());
 		System.out.println(LI.Getnavigation().isDisplayed());
+		System.out.println("this is my gtihub demo");
 		
 	}
 	@AfterMethod
