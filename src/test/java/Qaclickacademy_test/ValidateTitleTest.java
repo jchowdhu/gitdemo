@@ -31,7 +31,7 @@ public class ValidateTitleTest extends BaseClass {
 		LandingPage LI = new LandingPage(driver);
 
 		System.out.println(LI.VerifyText().getText());
-		
+		 System.out.println("this is my github pratice");
 		
 	}
 	@AfterMethod
