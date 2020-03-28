@@ -32,6 +32,7 @@ public class ValidateTitleTest extends BaseClass {
 
 		System.out.println(LI.VerifyText().getText());
 		
+		
 	}
 	@AfterMethod
 	public void teardown() {
